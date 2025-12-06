@@ -47,6 +47,7 @@ INSTALLED_APPS = [
     'cart',
     'users',
     'orders',
+    'payment',
 ]
 
 MIDDLEWARE = [
@@ -147,3 +148,5 @@ STRIPE_PUBLISHABLE_KEY = os.getenv("STRIPE_PUBLISHABLE_KEY")
 STRIPE_SECRET_KEY = os.getenv("STRIPE_SECRET_KEY")
 STRIPE_API_VERSION = '2022-08-01'
 STRIPE_WEBHOOK_SECRET = os.getenv("STRIPE_WEBHOOK_SECRET")
+
+
